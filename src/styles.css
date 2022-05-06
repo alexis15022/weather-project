@@ -24,7 +24,7 @@ h1 {
   list-style: none;
   font-size: medium;
 }
-.temperature {
+#temperature {
   font-size: 50px;
 }
 .celcius {
