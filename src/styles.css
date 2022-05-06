@@ -32,4 +32,8 @@ h1 {
 }
 #icon {
   font-size: 50px;
+  position: relative;
+}
+#speed {
+  position: relative;
 }

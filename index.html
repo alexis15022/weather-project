@@ -45,10 +45,23 @@
         <div class="current-weather border p-3 mt-5 rounded-circle border-4">
           <div class="current-date" id="date-time"></div>
           <div class="current-city" id="city-name"></div>
-          <div id="description">Clear Sky</div>
-          <div>Humidity: <span id="humidity"></span>%</div>
-          <div> Wind: <span id="wind"></span> Km/h</div>
-          <div><span id="icon">🌥️</span><span id="temperature">19</span><span class="celcius">°C</span>
+          <div class="row">
+            <div class="col-6">
+            <div id="description">Clear Sky</div>
+            </div>
+            <div class="col-6">
+              <div>Humidity: <span id="humidity"></span>%</div>
+              </div>
+              <div class="row">
+          <div class="col-6">
+            <div><img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Clear" id="icon" /></div>
+            </div>
+             <div class="col-6">
+              <div id="speed"> Wind: <span id="wind"></span> Km/h</div>
+              </div>
+              </div>
+          </div>
+          <div><span id="temperature">19</span><span class="celcius">°C</span>
         </div>
       </div>
       <div class="row">
