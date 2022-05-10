@@ -19,11 +19,7 @@ h1 {
 .current-city {
   font-size: 50px;
 }
-.forecast {
-  margin: 5px 10px;
-  list-style: none;
-  font-size: medium;
-}
+
 #temperature {
   font-size: 50px;
 }
